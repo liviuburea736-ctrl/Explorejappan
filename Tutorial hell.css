@@ -67,7 +67,7 @@ p {
     margin: auto;
 }
 
-.tea-ceremony, .kimono {
+.tea-ceremony, .kimono, .sushi, .ramen, .tempura, .tonkatsu, .yakitori, .mount-fuji, .fushimi-inari-taisha, .nara, .oasaka {
     background-color: #e0e0e0;
     padding: 15px;
     border-radius: 5px;
@@ -79,13 +79,14 @@ p {
     gap: 5px;
 }
 
-.culture-cards {
+.culture-cards, .food-cards, .sights {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
-.culture-title {
+.culture-title, .food-title, .section-title {
     text-align: center;
     margin: auto;
     font-weight: bold;
@@ -100,4 +101,15 @@ a {
 a:hover {
     color: #004499;
     cursor: pointer;
+}
+
+.food-cards img, .sights img {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.tonkatsu, .yakitori {
+    margin-top: 30px;
 }
