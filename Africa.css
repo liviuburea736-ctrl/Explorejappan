@@ -1,0 +1,71 @@
+/* CSS Stylesheet */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #1d1818;
+    margin: 20px;
+}
+
+#p-block1 p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #1d1818;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#p-block1 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body, #p-block1 {
+    background-color: #dbdbdb;
+}
